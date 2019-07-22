@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>landing page</title>
+		<style type="text/css">
+			body{
+				padding: 0;
+				margin:0;
+				overflow: hidden;
+			}
+			h2{
+				font-size:24px;
+			}
+			#landingpg{
+				background-image: url('images/grey-bg.jpeg');
+				background-size: cover;
+				width: 100%;
+				height: 100vh;
+			}
+
+			#resume{
+				width: 5%;
+				height: 100vh;
+				background-image:url('images/resume-bg.png');
+				background-repeat: none;
+				background-size: cover;
+				position: absolute;
+				top: 0;
+				left: -2%;
+			}
+			#resume h2{
+				position: absolute;
+				top: 45%;
+				right: : 10%;
+				color:white;
+				writing-mode: vertical-rl;
+				text-orientation: mixed;
+			}
+			#resume:hover{
+				font-size: 20px;
+				left: 0%;
+				transition: 400ms;
+			}
+
+			#portfolio{
+				width: 5%;
+				height: 100vh;
+				background-image:url('images/proj-bg.png');
+				background-repeat: none;
+				background-size: cover;
+				position: absolute;
+				top: 0;
+				right:-2%;
+
+			}
+			#portfolio h2{
+				position: absolute;
+				left: 10%;
+				top: 45%;
+				color:white;
+				writing-mode: vertical-lr;
+				text-orientation: mixed;
+			}
+			
+			#portfolio:hover{
+				font-size: 20px;
+				right: 0%;
+				transition: 400ms;
+			}
+			#titleword{
+				font-size:48px;
+				position: absolute;
+				top: 35%;
+				left:18%;
+
+			}
+			#ly{
+				position: absolute;
+				right: 14%;
+				color:white;
+
+
+			}
+			#ly p{
+
+				float: right;
+				clear:both;
+			}
+		</style>
+	</head>
+
+	<body>	
+		<div class="container" id="landingpg">
+			<div id="aboutme"></div>
+			<div id="resume"><h2>RESUME</h2></div>
+			<div id="portfolio"><h2>PROJECTS</h2></div>
+			<h1 id="titleword">hello world!</h1>
+			<div id="ly">
+				
+			</div>
+		</div>
+	</body>
+</html>
